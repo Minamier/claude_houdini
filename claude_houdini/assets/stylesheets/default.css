@@ -1,0 +1,139 @@
+/* Claude-Houdini 集成插件样式表 */
+
+/* 主窗口样式 */
+QWidget {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    font-family: 'Consolas', monospace;
+}
+
+/* 标题栏样式 */
+QLabel[style="title"] {
+    font-size: 16pt;
+    font-weight: bold;
+    color: #007acc;
+}
+
+/* 聊天显示区域样式 */
+QTextEdit {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 11pt;
+    font-family: 'Consolas', monospace;
+}
+
+/* 输入框样式 */
+QLineEdit {
+    background-color: #3d3d3d;
+    color: #ffffff;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 11pt;
+    font-family: 'Consolas', monospace;
+}
+
+QLineEdit:focus {
+    border-color: #007acc;
+    background-color: #4d4d4d;
+}
+
+/* 按钮样式 */
+QPushButton {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 11pt;
+    font-family: 'Consolas', monospace;
+}
+
+QPushButton:hover {
+    background-color: #005a9e;
+}
+
+QPushButton:pressed {
+    background-color: #003d66;
+}
+
+QPushButton:disabled {
+    background-color: #666666;
+    color: #999999;
+}
+
+/* 列表视图样式 */
+QListWidget {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    font-size: 11pt;
+    font-family: 'Consolas', monospace;
+}
+
+QListWidget::item {
+    padding: 4px 8px;
+}
+
+QListWidget::item:selected {
+    background-color: #007acc;
+    color: white;
+}
+
+/* 分组框样式 */
+QGroupBox {
+    border: 1px solid #444444;
+    border-radius: 4px;
+    margin-top: 16px;
+    padding-top: 8px;
+    font-size: 12pt;
+    font-family: 'Consolas', monospace;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 0 8px;
+}
+
+/* 分割器样式 */
+QSplitter::handle {
+    background-color: #444444;
+}
+
+QSplitter::handle:hover {
+    background-color: #666666;
+}
+
+/* 滚动条样式 */
+QScrollBar:vertical {
+    background-color: #1a1a1a;
+    width: 12px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #444444;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #666666;
+}
+
+QScrollBar:horizontal {
+    background-color: #1a1a1a;
+    height: 12px;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: #444444;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background-color: #666666;
+}

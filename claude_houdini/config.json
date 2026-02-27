@@ -1,0 +1,21 @@
+{
+    "api": {
+        "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+        "api_key": "",
+        "model": "doubao-seed-code-preview-latest",
+        "timeout": 60,
+        "max_tokens": 4096
+    },
+    "ui": {
+        "window_title": "Claude Assistant",
+        "window_width": 800,
+        "window_height": 600,
+        "font_size": 14,
+        "theme": "houdini"
+    },
+    "engine": {
+        "auto_execute": false,
+        "show_preview": true,
+        "log_level": "INFO"
+    }
+}
